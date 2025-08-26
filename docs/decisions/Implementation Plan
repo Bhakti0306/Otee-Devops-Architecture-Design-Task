@@ -1,0 +1,8 @@
+ Step 1: Provision IoT Core in EU region VPC; configure device registry & policies.
+ Step 2: Connect PLCs via MQTT over TLS using unique certs.
+ Step 3: Set IoT Rule to route device data → Kinesis Data Stream (real-time).
+ Step 4: Persist data in S3 (raw) and DynamoDB (indexed).
+ Step 5: Configure Lambda to process stream:
+If temperature > 100 → trigger SNS alert.
+ Step 6: Deploy API Gateway + Lambda for MES queries (read DynamoDB/S3).
+ Step 7: Enable CloudWatch dashboards, alarms, and logs for 99.9% uptime monitoring.

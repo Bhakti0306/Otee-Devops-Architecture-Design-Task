@@ -39,9 +39,3 @@ Combination of the following AWS services to keep things secure, simple, and cos
 ## Conclusion
 
 This setup keeps devices secure, handles data in real time, and makes sure we can store everything safely while still giving quick answers when the MES needs them.
-
----
-
-## References
-
--
